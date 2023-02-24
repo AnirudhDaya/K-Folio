@@ -1,0 +1,24 @@
+.NavbarContainer{  
+
+    width: 100vw;
+    height: 20vh;
+    padding: 3em;
+    box-sizing: border-box;
+
+    text-align: center;
+    font-weight: 500;
+    font-size: var(--txt-s);
+    letter-spacing: var(--letter-spacing-s);
+   
+}
+
+.navbartitles>a{
+    padding-inline: 4px;
+    color: var(--off-white-50);
+
+}
+.navbartitles>a:hover{
+
+    padding-inline: 6px;
+    color: var(--other-yellow);
+}
