@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="grid"></div>
       <Navbar/>
       <Me/>
     </div>
