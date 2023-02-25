@@ -1,20 +1,44 @@
-.MeContainer{
-    max-width: 100vw ;
+.MeContainer {
+    max-width: 100vw;
     min-height: 80vh;
 
+    overflow: hidden;
+    /* 
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;
+    */
 
-    padding-top: 6em;
-    
+    padding-top: 4em;
 
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
 }
-.mainLogo{
+
+
+
+.mainLogo {
     padding-bottom: 1.25em;
 }
-.skills{
+
+.MeTop {
+    padding-bottom: 4em;
+}
+
+.mobLogo {
+    display: none;
+}
+
+.skills {
+
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+
 
     /* padding-top: 1.45em; */
     text-align: center;
@@ -26,15 +50,204 @@
     line-height: 26px;
     text-transform: lowercase;
     color: var(--off-white-80);
-    cursor:no-drop;
+    cursor: no-drop;
 
 }
-.skillPara:hover{
+
+.skillPara:hover {
     color: var(--other-purple);
 }
 
-.socialLogo {   
-    /* filter: saturate(0); */
-    padding-inline:2.55em;
-    /* width: 3em; */
+.connect {
+
+    /* padding-block: 2em; */
+    padding-top: 4.5em;
+    padding-bottom: 1.7em;
+
+    font-weight: 600;
+    font-size: var(--txt-xs);
+    color: var(--off-white-50);
+
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-l);
+}
+
+.lineConnect {
+
+    width: 50%;
+    height: 0.12px;
+    /* content: ""; */
+    background-color: var(--off-white-50);
+}
+
+
+.socialLogo {
+
+    height: 70px;
+    position: relative;
+    width: 45%;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+    perspective: 100px;
+
+}
+
+.socials {
+
+    /* width: 60vw; */
+    height: 36px;
+
+    padding-inline: 1.85em;
+    place-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socials:hover {
+    transform: scale(1.2)
+}
+
+
+img {
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: translateZ(40px);
+}
+
+
+.socialLogo::before,
+.socialLogo::after {
+    position: absolute;
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
+    background-image: linear-gradient(90deg, #101013 2.48%, rgba(16, 16, 19, 0) 21.53%);
+    content: " ";
+    height: 100%;
+    width: 20%;
+    z-index: 2;
+    pointer-events: none;
+
+}
+
+.socialLogo::before {
+    left: 0;
+    top: 0;
+}
+
+.socialLogo::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.socialLogo-track {
+    width: calc(50vw * 7);
+    display: flex;
+    animation: scroll 40s linear infinite;
+    justify-content: space-between;
+}
+
+.socialLogo-track:hover {
+
+    animation-play-state: paused ease-in-out;
+}
+
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(5vw);
+    }
+
+    /* 50%{
+        transform:translateX(-50vw)
+    } */
+
+    100% {
+        transform: translateX(calc(-15vw * 3.5));
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .MeContainer {
+        /* margin: 1.75em; */
+        padding: 1.75em;
+        overflow: hidden;
+    }
+    .MeTop{
+        padding-bottom: 2em;
+    }
+    .lineConnect{
+        width: 80%;
+    }
+    /* .connect{
+        padding-top: 4em;
+    } */
+
+    .socialLogo-track {
+        /* width: calc(95vw * 3.5); */
+        width: calc(100vw * 7);
+
+        /* width: 90vw; */
+    }
+
+
+    .socialLogo {
+        width: 80%;
+        /* width: 50px; */
+    }
+
+    .socials {
+        /* width: 80px; */
+
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(calc(-50vw * 3.5));
+        }
+    }
+}
+
+@media screen and (max-width:680px) {
+
+    .skillContainer {
+        padding-top: 1em;
+    }
+
+
+    .skills {
+
+        /* font-size: var(--txt-s); */
+        font-weight: 500;
+        font-size: 13.8px;
+        /* margin: 1em; */
+        /* box-sizing: border-box; */
+
+    }
+
+    .mainLogo {
+        display: none
+    }
+
+    .mobLogo {
+        display: grid;
+        width: 90vw;
+
+    }
+
+
+
+
+
 }

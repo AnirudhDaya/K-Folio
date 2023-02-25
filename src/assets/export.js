@@ -1,4 +1,5 @@
 import AnirudhLogo from './Anirudh.svg'
+import AnirudhMob from './AnirudhMob.svg'
 import instagram from './Socials/Instagram - Original.svg'
 import github from './Socials/Github - Original.svg'
 import linkedin from './Socials/LinkedIn - Original.svg'
@@ -30,13 +31,39 @@ const socials = [
     },
     {
         src:medium
-    }
+    },
+    {
+        src:instagram
+    },
+    {
+        src:github
+    },
+    {
+        src:linkedin
+    },
+    {
+        src:twitter
+    },
+    {
+        src:youtube
+    },
+    {
+        src:discord
+    },
+    {
+        src:medium
+    },
+    {
+        src:instagram
+    },
 ]
 
 export  {
 
     socials,
+
     AnirudhLogo,
+    AnirudhMob,
     instagram,
     github,
     linkedin,
