@@ -1,0 +1,139 @@
+.AboutMEContainer{
+
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 80vh;
+    
+    /* box-sizing: border-box; */
+    /* margin: 2em; */
+
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all 0.5s ease-out;
+    
+}
+.AboutLogo{
+    text-align: center;
+    padding-bottom: 4em;
+}
+.middleContainer{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    justify-items: center;
+    /* align-items: center; */
+
+}
+
+.photoAndFrame{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.darkLogoFrame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* color: var(--off-white-50); */
+    
+}
+.darkSocialLogo{
+
+    padding: 1.2em;
+    padding-inline: 1em;
+
+    filter: brightness(30%);
+    perspective: 100px;
+
+    transition: transform 1s;
+   
+}
+
+.darkSocialLogo:hover{
+    filter: brightness(70%);
+    transform: translateZ(40px);
+}
+
+.detailsScroll{
+    box-sizing: border-box;
+    /* margin: 4em; */
+    margin-top: 0;
+    text-align: left;
+}
+
+
+.aboutmeTitle{
+    font-size: var(--txt-m);
+    font-weight: 500;
+    letter-spacing: var(--letter-spacing-s);
+    text-transform: lowercase;
+    padding:1em 0 0.5em 0;
+}
+
+.whoTitle{
+    padding-top: 0;
+}
+.aboutmePara{
+
+    font-size: var(--txt-xs);
+    color: var(--off-white-50);
+    text-transform: capitalize;
+}
+.detail{
+
+    padding-block: 0.5em;
+
+}
+
+.whoTitle{
+    color: var(--other-blue);
+}
+
+.aboutTitle{
+    color: var(--other-yellowBright);
+}
+
+.educationTitle{
+    color: var(--other-purple);
+}
+
+
+.credits{
+    /* padding-top: 2em; */
+    content: " ";
+    width: 100vw;
+    height: 8vh;
+    background-color: var(--bg-black);
+
+   
+    /* margin-inline:; */
+    
+}
+.rectangleCredit{
+
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 2em;
+    margin-top: 1em;
+
+
+
+}
+.credit{
+    font-size: var(--txt-xs);
+    font-weight: 300;
+
+}
+.detailsScroll{
+
+    /* margin-right: 4em; */    
+    /*//////////// when doing media query of the margin..///////////// */
+    margin-right: 10em;
+
+}
+
+/* horizontal scrolling */
+

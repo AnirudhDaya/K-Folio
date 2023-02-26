@@ -5,20 +5,14 @@
     min-height: 80vh;
 
     overflow: hidden;
-    /* 
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    */
-
     padding-top: 4em;
 
     display: flex;
     justify-items: center;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-evenly; */
+
+    transition: all 0.5s ease-out;
 }
 
 
@@ -130,6 +124,7 @@ img:hover {
 
 .socialLogo::before,
 .socialLogo::after {
+    
     position: absolute;
     /* background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
     background-image: linear-gradient(90deg, #101013 2.48%, rgba(16, 16, 19, 0) 21.53%);
