@@ -20,9 +20,12 @@
     padding-bottom: 4em;
 }
 .middleContainer{
+
     display: grid;
     grid-template-columns: 1fr 1.25fr;
     justify-items: center;
+
+    padding-bottom: 3em;
     /* align-items: center; */
 
 }
@@ -136,4 +139,39 @@
 }
 
 /* horizontal scrolling */
+
+.detailsScroll{
+    height: 450px;
+    overflow-y: scroll; /* enable horizontal scrolling */
+    overflow-x: hidden; 
+    /* cursor: pointer; */
+}
+
+.detailsScroll::-webkit-scrollbar {
+
+    margin-block: 2em;
+
+    width: 0.5em;
+    cursor: pointer;
+    
+  
+  }
+  .detailsScroll::-webkit-scrollbar-track{
+    background-color: var(--other-pink)
+    /* border-radius: 50vw; */
+    
+  }
+
+  .detailsScroll::-webkit-scrollbar-thumb{
+    background-color: var(--bg-black);
+  
+    
+  }
+  
+  @supports(scrollbar-color: #cc271e1b #CC281E){
+    *{
+      scrollbar-color : rgb(#cc271e1b) rgb(#CC281E);
+      scrollbar-width: thin;
+    }
+  }
 

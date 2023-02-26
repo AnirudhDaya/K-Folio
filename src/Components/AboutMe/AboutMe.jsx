@@ -50,7 +50,15 @@ function AboutMe() {
             </div>
             <div className="detail education">
               <h3 className="aboutmeTitle educationTitle">Education</h3>
-              {/* <p className="aboutPara"></p> */}
+              <p className="aboutmePara">
+              I'm a tech enthusiast and problem solver with a passion for
+                DevOps and scripting. With expertise in Python and C++, I
+                specialize in creating efficient and scalable solutions for
+                complex problems. From automating deployments to optimizing
+                workflows, I'm dedicated to streamlining processes for
+                businesses. Take a look at my projects and get in touch to learn
+                more.
+              </p>
             </div>
           </div>
         </div>
