@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import { AnirudhSmall, photo, darkSocials,socials, AnirudhMob } from "../../assets/export";
+import { AnirudhSmall, photo, darkSocials,tech, AnirudhMob } from "../../assets/export";
 
 
 function AboutMe() {
@@ -100,8 +100,8 @@ function AboutMe() {
       <div className="socialLogo">
         <div className="socialLogo-track">
           <a href="">
-            {socials.map((src, index) => (
-              <img src={src.src} alt="socials" className={`socials ${index}`} />
+            {tech.map((take, index) => (
+              <img src={take.src} alt="socials" className={`socials ${index}`} />
             ))}
           </a>
         </div>
