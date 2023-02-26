@@ -14,7 +14,7 @@
   
 }
 
-.App::after{
+.App::before{
 
     content: " ";
     position: absolute; /* position the pseudo-element over the element */
@@ -28,6 +28,8 @@
     background-size:cover;
     filter: opacity(0.1) saturate(50%); 
     mix-blend-mode: overlay;
+
+    z-index: -2;
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
 

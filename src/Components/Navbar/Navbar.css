@@ -9,6 +9,8 @@
     font-weight: 500;
     font-size: var(--txt-s);
     letter-spacing: var(--letter-spacing-s);
+
+    /* z-index: 10 ; */
    
 }
 
