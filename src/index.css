@@ -1,39 +1,42 @@
-:root{
+:root {
 
-  --bg-white : #ffffff;
+  --bg-white: #ffffff;
   --off-white-90: #E7E7E7;
   --off-white-80: #CFCFD0;
+  --off-white-60: #B3B3B3;
+
   --off-white-50: #878789;
 
-  --bg-black : #000000;
-  --bg-off-black : #101013;
-  --off-black-ash : #666666;
+  --bg-black: #000000;
+  --bg-off-black: #101013;
+  --off-black-ash: #666666;
 
   --other-yellow: #FDBE6D;
-  --other-blue : #47CBF8;
-  --other-yellowBright : #FEDA75;
-  --other-purple : #D795FF;
-  --other-pink : #FF95BD;
+  --other-blue: #47CBF8;
+  --other-yellowBright: #FEDA75;
+  --other-purple: #D795FF;
+  --other-pink: #FF95BD;
 
 
-  --txt-xxxl : 100px;
-  --txt-xxl : 74px;
-  --txt-xl : 52px;
-  --txt-l : 40px;
-  --txt-m : 26px;
-  --txt-mm : 24px;
-  --txt-s : 22px;
-  --txt-xs : 16px;
-  
-  --letter-spacing-l : 0.20em;
-  --letter-spacing-s :  -0.06em;
- 
+  --txt-xxxl: 100px;
+  --txt-xxl: 74px;
+  --txt-xl: 52px;
+  --txt-l: 40px;
+  --txt-m: 26px;
+  --txt-mm: 24px;
+  --txt-s: 22px;
+  --txt-xs: 16px;
+
+  --letter-spacing-l: 0.20em;
+  --letter-spacing-s: -0.06em;
+
 }
+
 html {
   scroll-behavior: smooth;
 }
 
-*{
+* {
 
   margin: 0;
   padding: 0;
@@ -43,10 +46,10 @@ html {
   text-decoration: none;
   box-sizing: border-box;
   line-height: normal;
-  font-family: 'Inter', sans-serif;  
+  font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
 
   padding: 0;
   margin: 0;

@@ -1,9 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import Me from './Components/Me/Me'
 import Navbar from './Components/Navbar/Navbar'
-import { grid } from './assets/export'
+// import { grid } from './assets/export'
 import AboutMe from './Components/AboutMe/AboutMe'
+import Project from './Components/Project/Project'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,7 +17,8 @@ function App() {
       </div> */}
       <Navbar/>
       {/* <Me/> */}
-      <AboutMe/>
+      {/* <AboutMe/> */}
+      <Project/>
     </div>
   )
 }

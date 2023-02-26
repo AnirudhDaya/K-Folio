@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.App{
+.App {
     max-width: 100vw;
     overflow: hidden;
 }
 
-.App::before{
+.App::before {
 
     content: " ";
-    position: absolute; /* position the pseudo-element over the element */
+    position: absolute;
+    /* position the pseudo-element over the element */
     /* top: 0; */
     /* left: 0; */
     width: 100%;
@@ -16,25 +17,26 @@
     background-image: url(./assets/Grid.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
-    filter: opacity(0.1) saturate(70%); 
+    background-size: cover;
+    filter: opacity(0.1) saturate(70%);
     mix-blend-mode: overlay;
 
     z-index: -2;
 }
 
 /* ANimation bg */
-.grid{
+.grid {
     overflow: hidden;
 
     top: 0;
     bottom: 0;
 }
-.grid>img{
+
+.grid>img {
     /* display: none; */
     width: 100%;
     height: 100%;
-  
+
     /* right: 0; */
     /* mix-blend-mode: overlay; */
 }
@@ -50,19 +52,23 @@
     animation: rotate var(--speed) var(--easing) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
-   }
+    }
+
     100% {
         transform: rotate(360deg);
-   }
+    }
 }
+
 @media (min-width: 720px) {
     .gradient {
         --size: 500px;
-   }
+    }
 }
+
 .gradient {
     /* background-color: #222; */
     position: absolute;
@@ -76,18 +82,15 @@
     left: 0%;
     /* bottom: 50%; */
 }
+
 /* This is just to transition when you change the viewport size. */
 
-  
-  /* This is just to transition when you change the viewport size. */
-  /* * {
+
+/* This is just to transition when you change the viewport size. */
+/* * {
     transition: all 0.25s ease-out;
   } */
 
 
 
-  /*  */
-  
-
-  
-
+/*  */

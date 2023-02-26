@@ -1,18 +1,22 @@
 import React from "react";
 import "./AboutMe.css";
-import { AnirudhSmall, photo, darkSocials,tech, AnirudhMob } from "../../assets/export";
-
+import {
+  AnirudhSmall,
+  photo,
+  darkSocials,
+  tech,
+  AnirudhMob,
+} from "../../assets/export";
 
 function AboutMe() {
   return (
     <div className="AboutMEContainer">
-      <div className="AboutLogo">
-        <img src={AnirudhSmall} alt="Anirudh" className="mainLogo"/>
-        <img src={AnirudhMob} alt="Anirudh" className="mobLogo"/>
+      <div className="commonMainLogo AboutLogo">
+        <img src={AnirudhSmall} alt="Anirudh" className="mainLogo" />
+        <img src={AnirudhMob} alt="Anirudh" className="mobLogo" />
       </div>
 
       <div className="middleContainer">
-
         <div className="photoAndFrame">
           <img src={photo} alt="" className="photo" />
           <div className="darkLogoFrame">
@@ -101,7 +105,11 @@ function AboutMe() {
         <div className="socialLogo-track">
           <a href="">
             {tech.map((take, index) => (
-              <img src={take.src} alt="socials" className={`socials ${index}`} />
+              <img
+                src={take.src}
+                alt="socials"
+                className={`socials ${index}`}
+              />
             ))}
           </a>
         </div>
