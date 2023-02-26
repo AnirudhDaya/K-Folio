@@ -11,7 +11,7 @@ function Me() {
           <img src={AnirudhMob} alt="AnirudhMob" className="mobLogo" />
           <img src={AnirudhLogo} alt="AnirudhLogo" className="mainLogo" />
         </div>
-        
+      
         <div className="skillContainer">
           <div className="skills skillSet_1">
             <span className="skillPara skill_1">cloud engineer &bull; </span>

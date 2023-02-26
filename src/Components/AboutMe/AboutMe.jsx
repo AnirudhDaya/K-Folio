@@ -1,16 +1,18 @@
 import React from "react";
 import "./AboutMe.css";
-import { AnirudhSmall, photo, darkSocials,socials } from "../../assets/export";
+import { AnirudhSmall, photo, darkSocials,socials, AnirudhMob } from "../../assets/export";
 
 
 function AboutMe() {
   return (
     <div className="AboutMEContainer">
       <div className="AboutLogo">
-        <img src={AnirudhSmall} alt="" />
+        <img src={AnirudhSmall} alt="Anirudh" className="mainLogo"/>
+        <img src={AnirudhMob} alt="Anirudh" className="mobLogo"/>
       </div>
 
       <div className="middleContainer">
+
         <div className="photoAndFrame">
           <img src={photo} alt="" className="photo" />
           <div className="darkLogoFrame">
@@ -50,15 +52,44 @@ function AboutMe() {
             </div>
             <div className="detail education">
               <h3 className="aboutmeTitle educationTitle">Education</h3>
-              <p className="aboutmePara">
-              I'm a tech enthusiast and problem solver with a passion for
-                DevOps and scripting. With expertise in Python and C++, I
-                specialize in creating efficient and scalable solutions for
-                complex problems. From automating deployments to optimizing
-                workflows, I'm dedicated to streamlining processes for
-                businesses. Take a look at my projects and get in touch to learn
-                more.
-              </p>
+              <div className="educationFrame">
+                <div className="educationDetails edu-1">
+                  <div className="subDesc">
+                    <h3 className="textdesc detailDesc1">
+                      {" "}
+                      Computer Science Engineering (AI/ML)
+                    </h3>
+                    <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
+                  </div>
+                  <h3 className="textdesc detailDesc2">
+                    Sree Chithra Thirunal College Of Engineering
+                  </h3>
+                </div>
+                <div className="educationDetails edu-2">
+                  <div className="subDesc">
+                    <h3 className="textdesc detailDesc1">
+                      {" "}
+                      Computer Science Engineering (AI/ML)
+                    </h3>
+                    <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
+                  </div>
+                  <h3 className="textdesc detailDesc2">
+                    Sree Chithra Thirunal College Of Engineering
+                  </h3>
+                </div>
+                <div className="educationDetails edu-3">
+                  <div className="subDesc">
+                    <h3 className="textdesc detailDesc1">
+                      {" "}
+                      Computer Science Engineering (AI/ML)
+                    </h3>
+                    <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
+                  </div>
+                  <h3 className="textdesc detailDesc2">
+                    Sree Chithra Thirunal College Of Engineering
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -75,14 +106,13 @@ function AboutMe() {
           </a>
         </div>
       </div>
-                <br/>
+      <br />
       <div className="credits">
         <div className="rectangleCredit">
-            <h2 className="credit creditsName">ANIZ</h2>
-            <h2 className="credit">all rights reserved </h2>
+          <h2 className="credit creditsName">ANIZ</h2>
+          <h2 className="credit">all rights reserved </h2>
         </div>
       </div>
-
     </div>
   );
 }

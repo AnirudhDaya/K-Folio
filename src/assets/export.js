@@ -17,6 +17,25 @@ import darkLinkedin from './DarkLogo/LinkedIn - Dark.svg'
 import darkTwitter from './DarkLogo/Twitter - Dark.svg'
 import darkHashode from './DarkLogo/Hashnode - Dark.svg'
 
+// import cSharp from './TechStack/c#.svg'
+// import cpp from './TechStack/c++.svg'
+// import css from './TechStack/css_3.svg'
+// import docker from './TechStack/docker.svg'
+// import git from './TechStack/git.svg'
+// import go from './TechStack/go.svg'
+// import html from './TechStack/html_5.svg'
+// import java from './TechStack/java.svg'
+// import jb_kotlin from './TechStack/jb_kotlin.svg'
+// import js from './TechStack/js.svg'
+// import hashnodeColor from './TechStack/Hashnode.svg'
+// import node_js from './TechStack/node_js.svg'
+// import npm from './TechStack/npm.svg'
+// import python from './TechStack/python.svg'
+// import react from './TechStack/react.svg'
+// import ubuntu from './TechStack/ubuntu.svg'
+// import vs_code from './TechStack/vs_code.svg'
+
+
 import grid from './Grid.png'
 
 
@@ -88,10 +107,65 @@ const darkSocials = [
 
 ]
 
+// const techStack = [
+//     {
+//         src:cSharp
+//     },
+//     {
+//         src:cpp
+//     },
+//     {
+//         src:css
+//     },
+//     {
+//         src:docker
+//     },
+//     {
+//         src:git
+//     },
+//     {
+//         src:go
+//     },
+//     {
+//         src:hashnodeColor
+//     },
+//     {
+//         src:html
+//     },
+//     {
+//         src:java
+//     },
+//     {
+//         src:jb_kotlin
+//     },
+//     {
+//         src:js
+//     },
+//     {
+//         src:node_js
+//     },
+//     {
+//         src:npm
+//     },
+//     {
+//         src:python
+//     },
+//     {
+//         src:react
+//     },
+//     {
+//         src:ubuntu
+//     },
+//     {
+//         src:vs_code
+//     },
+// ]
+
 export  {
 
     socials,
     darkSocials,
+    // techStack,
 
     AnirudhLogo,
     AnirudhMob,
