@@ -8,7 +8,7 @@ import youtube from './Socials/YouTube - Original.svg'
 import discord from './Socials/Discord - Original.svg'
 import medium from './Socials/Medium - Original.svg'
 
-import grid from '.Grid.png'
+import grid from './Grid.png'
 
 
 const socials = [

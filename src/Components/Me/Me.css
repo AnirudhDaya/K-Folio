@@ -1,6 +1,6 @@
 .MeContainer {
 
-    z-index: 100;
+    /* z-index: 100; */
     max-width: 100vw;
     min-height: 80vh;
 
@@ -55,9 +55,15 @@
     cursor: no-drop;
 
 }
+.skillPara{
+    padding-inline: 6px;
+}
 
 .skillPara:hover {
     color: var(--other-purple);
+}
+.skill_13{
+    color: var(--other-yellowBright);
 }
 
 .connect {

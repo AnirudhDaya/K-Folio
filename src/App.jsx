@@ -9,10 +9,11 @@ function App() {
 
   return (
     <div className="App">
+      <div className='pattern'></div>
       <div class="gradient"></div>
-      <div className="grid">
+      {/* <div className="grid">
         <img src={grid} alt="" />
-      </div>
+      </div> */}
       <Navbar/>
       <Me/>
     </div>

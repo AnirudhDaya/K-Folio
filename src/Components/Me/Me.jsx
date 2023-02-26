@@ -24,7 +24,7 @@ function Me() {
           </span>
         </div>
         <div className="skills skillSet_2">
-          <span className="skillPara skill_4">ai/ml engineer &bull; </span>
+          <span className="skillPara skill_4">ai/ml engineer  &bull; </span>
           <span className="skillPara skill_5">
             data structure and oops &bull;{" "}
           </span>
@@ -35,8 +35,8 @@ function Me() {
         <div className="skills skillSet_3">
           <span className="skillPara skill_9">c++ eater &bull; </span>
           <span className="skillPara skill_10">devOPs&bull; </span>
-          <span className="skillPara skill_11">devOPS &bull; </span>
           <span className="skillPara skill_12">barca &bull; </span>
+          <span className="skillPara skill_13">made by ANIZ  </span>
         </div>
         </div>
 
