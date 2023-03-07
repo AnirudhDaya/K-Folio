@@ -28,14 +28,14 @@
 } */
 .mainLogo {
 
-    padding-bottom: .25em;
     font-family: 'BLACK gifliten';
     text-transform: uppercase;
     font-weight: 400;
     font-size: 5.375rem;
     color: var(--other-yellow);
-
+    
     line-height: 5.25rem;
+    padding-bottom: .25em;
     text-align: center;
 
     transition: 0.5s;
