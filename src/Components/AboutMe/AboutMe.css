@@ -1,0 +1,266 @@
+
+.AboutMEContainer {
+
+    overflow: hidden;
+    max-width: 100vw;
+    min-height: 80vh;
+
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all 0.5s ease-out;
+
+}
+body::-webkit-scrollbar{
+    width: 0.6em;
+}
+body::-webkit-scrollbar-track {
+
+    margin-block: 2em;
+    background-color: #603D4C;
+    border-radius: 2em;
+
+}
+body::-webkit-scrollbar-thumb{
+
+    border-radius: 2em;
+    max-height:3em;
+    background-color: rgba(0, 0, 0);
+    border: 2px solid #603D4C;
+   
+}
+
+.commonMainLogo {
+    text-align: center;
+    padding-bottom: 2em;
+    transition: 1s;
+}
+
+.subLogo{
+    font-size: var(--txt-xl);
+}
+.commonMainLogo:hover{
+    padding-bottom: 3em;
+    transition: 1s;
+}
+.subLogo:hover{
+    font-size: 3.5rem;
+
+}
+.LogoHover2{
+    cursor: pointer;
+    position: relative;
+}
+.LogoHover2::after {
+    content: "Click for resume";
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    font-size: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.LogoHover2:hover::after {
+    transform: 1s;
+    opacity: 0.7;
+    /* set the opacity to 1 on hover */
+}
+
+.middleContainer {
+
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    justify-items: center;
+
+    padding-bottom: 3em;
+    /* align-items: center; */
+
+}
+
+.photoAndFrame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.darkLogoFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.darkSocialLogo {
+
+    padding: 1.2em;
+    padding-inline: 1em;
+
+    filter: brightness(30%);
+    perspective: 100px;
+
+    /* transition: transform 1s; */
+    transition: 0.5s;
+
+}
+
+.darkSocialLogo:hover {
+    filter: brightness(80%);
+    /* transform: translatez(40px); */
+    transition: 0.75s;
+}
+
+.detailsScroll {
+    text-align: left;
+}
+
+
+.aboutmeTitle {
+    font-size: var(--txt-m);
+    font-weight: 500;
+    letter-spacing: var(--letter-spacing-s);
+    text-transform: lowercase;
+    padding: 1em 0 0.5em 0;
+}
+
+.whoTitle {
+    padding-top: 0;
+}
+
+.aboutmePara {
+
+    font-size: var(--txt-xs);
+    color: var(--off-white-80);
+    text-transform:none;
+}
+
+.detail {
+
+    padding-block: 0.5em;
+}
+
+.whoTitle {
+    color: var(--other-blue);
+}
+
+.aboutTitle {
+    color: var(--other-yellowBright);
+}
+
+.educationTitle {
+    color: var(--other-purple);
+}
+
+.credits {
+
+    content: " ";
+    width: 100vw;
+    height: 8vh;
+    background-color: var(--bg-black);
+
+}
+
+.rectangleCredit {
+
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 2em;
+    margin-top: 1em;
+}
+
+.credit {
+    font-size: var(--txt-xs);
+    font-weight: 300;
+
+}
+
+.detailsScroll {
+
+    /*//////////// when doing media query of the margin..///////////// */
+    margin-right: 10em;
+
+}
+
+/* horizontal scrolling */
+
+.detailsScroll {
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.detailsScroll::-webkit-scrollbar {
+
+    /* margin-inline: 2em; */
+    width: 0.45em;
+    cursor: pointer;
+}
+
+.detailsScroll::-webkit-scrollbar-track {
+    /* background-color: var(--other-pink ) */
+    margin-block: 4em;
+    background-color: #ff95be55;
+    border-radius: 2em;
+    
+}
+
+.detailsScroll::-webkit-scrollbar-thumb {
+    
+    background-color: var(--bg-black);
+    border-radius: 2em;
+    border: 1px solid #603D4C;
+
+}
+
+@supports(scrollbar-color: #ff95be55 ,var(--bg-black)) {
+    * {
+        scrollbar-color: rgb(#ff95be55) rgb(var(--bg-black));
+        scrollbar-width: thin;
+    }
+}
+.educationDetails{
+    padding-block: 0.5em;
+}
+
+.textdesc{
+    font-weight: 500;
+    color: var(--off-white-80);
+    font-size: var(--txt-xs);
+    padding-top: 4px;
+}
+
+.subDesc{
+
+    display: flex;
+    justify-content: space-between;   
+}
+.detailDesc2{
+    color: var(--off-white-50);
+}
+
+
+
+@media screen and (max-width:680px) {
+
+    .middleContainer{
+        grid:none;
+    }
+    /* .detailsScroll */
+    .detailsScroll{
+        margin-right: 0;
+        margin: 2em;
+        min-height:450px;
+        /* overflow: hidden; */
+    }
+
+
+    
+}
