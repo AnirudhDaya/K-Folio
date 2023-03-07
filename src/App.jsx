@@ -5,6 +5,10 @@ import Navbar from './Components/Navbar/Navbar'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Project from './Components/Project/Project'
 
+import { Route, Routes } from 'react-router-dom'
+
+
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -16,9 +20,17 @@ function App() {
         <img src={grid} alt="" />
       </div> */}
       <Navbar/>
+
       {/* <Me/> */}
       {/* <AboutMe/> */}
-      <Project/>
+      {/* <Project/> */}
+
+      <Routes>
+        <Route path = '/' element={<Me/>}/>
+        <Route path = '/AboutMe' element={<AboutMe/>}/>
+        <Route path = '/project' element={<Project/>}/>
+      </Routes>
+
     </div>
   )
 }
