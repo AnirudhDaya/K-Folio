@@ -11,11 +11,15 @@
   --bg-off-black: #101013;
   --off-black-ash: #666666;
 
+
   --other-yellow: #FDBE6D;
   --other-blue: #47CBF8;
   --other-yellowBright: #FEDA75;
   --other-purple: #D795FF;
   --other-pink: #FF95BD;
+
+  --other-project :#100006;
+
 
 
   --txt-xxxl: 100px;
@@ -26,10 +30,18 @@
   --txt-mm: 24px;
   --txt-s: 22px;
   --txt-xs: 16px;
+  --txt-xxs:10px;
 
   --letter-spacing-l: 0.20em;
   --letter-spacing-s: -0.06em;
 
+}
+
+@font-face {
+  font-family: 'BLACK gifliten';
+  src: url(./assets/Fonts/Black\ Gifliten.otf) format('opentype');
+  /* font-weight: normal;
+  font-style: normal; */
 }
 
 html {
@@ -59,3 +71,4 @@ body {
   -webkit-font-smoothing: antialiased;
 
 }
+

@@ -2,6 +2,8 @@ import AnirudhLogo from './Anirudh.svg'
 import AnirudhMob from './AnirudhMob.svg'
 import AnirudhSmall from './AnirudhSmall.svg'
 import photo from './photo.png'
+import anirudhOnly from './AnirudhOnly.svg'
+import dayanandanOnly from './Dayanandan.svg'
 
 import instagram from './Socials/Instagram - Original.svg'
 import github from './Socials/Github - Original.svg'
@@ -170,6 +172,8 @@ export  {
     AnirudhLogo,
     AnirudhMob,
     AnirudhSmall,
+    anirudhOnly,
+    dayanandanOnly,
 
     photo,
     grid,

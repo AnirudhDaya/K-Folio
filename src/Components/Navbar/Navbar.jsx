@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbartitles">
             <Link to="/" className='navbarTitle me'> me </Link>
             <span>  /  </span>
-            <Link to="/AboutMe" className='navbarTitle aboutme'> about me </Link>
+            <Link to="/AboutMe" className='navbarTitle aboutme'> about <span className='meColor'>me</span></Link>
             <span>  /  </span>
             <Link to="/project" className='navbarTitle projects'> projects </Link>
         </div>

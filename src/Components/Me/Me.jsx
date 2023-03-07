@@ -1,17 +1,17 @@
 import React from "react";
 import "./Me.css";
-import { AnirudhLogo, AnirudhMob } from "../../assets/export";
 import { socials } from "../../assets/export";
 
 function Me() {
   return (
     <div className="MeContainer">
       <div className="MeTop">
-        <div className="main">
-          <img src={AnirudhMob} alt="AnirudhMob" className="mobLogo" />
-          <img src={AnirudhLogo} alt="AnirudhLogo" className="mainLogo" />
-        </div>
-      
+        <a href="https://linktr.ee/anizbn">
+          <div className="LogoHover">
+            <h1 className="BigLogo mainLogo">Anirudh Dayanandan</h1>
+          </div>
+        </a>
+
         <div className="skillContainer">
           <div className="skills skillSet_1">
             <span className="skillPara skill_1">cloud engineer &bull; </span>

@@ -1,19 +1,16 @@
 import React from "react";
 import "./AboutMe.css";
-import {
-  AnirudhSmall,
-  photo,
-  darkSocials,
-  tech,
-  AnirudhMob,
-} from "../../assets/export";
+import { photo, darkSocials, tech } from "../../assets/export";
 
 function AboutMe() {
   return (
     <div className="AboutMEContainer">
-      <div className="commonMainLogo AboutLogo">
-        <img src={AnirudhSmall} alt="Anirudh" className="mainLogo" />
-        <img src={AnirudhMob} alt="Anirudh" className="mobLogo" />
+      <div className="commonMainLogo">
+        <a href="https://linktr.ee/anizbn">
+          <div className="LogoHover2">
+            <h1 className="subLogo mainLogo ">Anirudh Dayanandan</h1>
+          </div>
+        </a>
       </div>
 
       <div className="middleContainer">
@@ -115,12 +112,7 @@ function AboutMe() {
         </div>
       </div>
       <br />
-      <div className="credits">
-        <div className="rectangleCredit">
-          <h2 className="credit creditsName">ANIZ</h2>
-          <h2 className="credit">all rights reserved </h2>
-        </div>
-      </div>
+      <br />
     </div>
   );
 }

@@ -20,11 +20,6 @@ function App() {
         <img src={grid} alt="" />
       </div> */}
       <Navbar/>
-
-      {/* <Me/> */}
-      {/* <AboutMe/> */}
-      {/* <Project/> */}
-
       <Routes>
         <Route path = '/' element={<Me/>}/>
         <Route path = '/AboutMe' element={<AboutMe/>}/>

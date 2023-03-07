@@ -17,10 +17,16 @@
 .navbartitles>a{
     padding-inline: 4px;
     color: var(--off-white-50);
+    transition: 1s;
 
 }
 .navbartitles>a:hover{
 
-    padding-inline: 6px;
+    padding-inline: 8px;
+    color: var(--bg-white);
+    transition: 0.5s ;
+}
+
+.meColor{
     color: var(--other-yellow);
 }
