@@ -6,7 +6,7 @@ function Project() {
     <div className="projectContainer">
 
       <div className="commonMainLogo" >
-      <a href="https://linktr.ee/anizbn">
+      <a href="https://linktr.ee/anirudhdayanand">
         <div className="LogoHover3">
           <h1 className="subLogo mainLogo">
             Anirudh Dayanandan

@@ -275,6 +275,10 @@ img:hover {
         font-size: var(--txt-xs);
         padding-inline: none;
     }
+    .bulletPoints{
+        display: none;
+    }
+
 
 
 
@@ -332,5 +336,18 @@ img:hover {
         padding-inline: none;
         font-size: var(--txt-xxs);
     }
+    /* .skillContainer{
+        display: flex;
+
+    } */
+    .skillPara{
+        content: "";
+        /* display: none; */
+    }
+
+    .skill_2::after {
+        content: "";
+      }
+
 
 }

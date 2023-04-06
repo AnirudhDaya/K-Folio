@@ -36,6 +36,7 @@ import python from './TechStack/python.svg'
 import react from './TechStack/react.svg'
 import ubuntu from './TechStack/ubuntu.svg'
 import vs_code from './TechStack/vs_code.svg'
+import flutter from './TechStack/flutter.svg'
 
 
 import grid from './Grid.png'
@@ -138,7 +139,7 @@ const tech = [
         src:java
     },
     {
-        src:jb_kotlin
+        src:flutter
     },
     {
         src:js

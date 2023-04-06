@@ -13,9 +13,6 @@ function Navbar() {
             <span>  /  </span>
             <Link to="/project" className='navbarTitle projects'> projects </Link>
         </div>
-    
-
-
     </div>
   )
 }

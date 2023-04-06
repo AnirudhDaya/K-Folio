@@ -6,7 +6,7 @@ function Me() {
   return (
     <div className="MeContainer">
       <div className="MeTop">
-        <a href="https://linktr.ee/anizbn">
+        <a href="https://linktr.ee/">
           <div className="LogoHover">
             <h1 className="BigLogo mainLogo">Anirudh Dayanandan</h1>
           </div>
@@ -14,28 +14,28 @@ function Me() {
 
         <div className="skillContainer">
           <div className="skills skillSet_1">
-            <span className="skillPara skill_1">cloud engineer &bull; </span>
+            <span className="skillPara skill_1">cloud engineer <span className="bulletPoints"> &bull; </span>{" "} </span>
             <span className="skillPara skill_2">
-              problem solving aficianado &bull;{" "}
+              problem solving aficianado <span className="bulletPoints"> &bull; </span>{" "}
             </span>
             <span className="skillPara skill_3">
-              react native developer &bull;{" "}
+              react native developer <span className="bulletPoints"> &bull; </span>{" "}
             </span>
           </div>
           <div className="skills skillSet_2">
-            <span className="skillPara skill_4">ai/ml engineer &bull; </span>
+            <span className="skillPara skill_4">ai/ml engineer  <span className="bulletPoints">&bull;  </span></span>
             <span className="skillPara skill_5">
-              data structure and oops &bull;{" "}
+              data structure and oops  <span className="bulletPoints">&bull;</span> { " "}
             </span>
-            <span className="skillPara skill_6">python scripting &bull; </span>
-            <span className="skillPara skill_7">java &bull; </span>
-            <span className="skillPara skill_8">rust &bull; </span>
+            <span className="skillPara skill_6">python scripting  <span className="bulletPoints">&bull;  </span></span>
+            <span className="skillPara skill_7">java  <span className="bulletPoints">&bull;  </span></span>
+            <span className="skillPara skill_8">rust  <span className="bulletPoints">&bull;  </span></span>
           </div>
           <div className="skills skillSet_3">
-            <span className="skillPara skill_9">c++ eater &bull; </span>
-            <span className="skillPara skill_10">devOPs&bull; </span>
-            <span className="skillPara skill_12">barca &bull; </span>
-            <span className="skillPara skill_13">made by ANIZ </span>
+            <span className="skillPara skill_9">c++ eater  <span className="bulletPoints">&bull;  </span></span>
+            <span className="skillPara skill_10">devOPs <span className="bulletPoints">&bull;  </span></span>
+            <span className="skillPara skill_12">barca <span className="bulletPoints"> &bull; </span> </span>
+            {/* <span className="skillPara skill_13">made by ANIZ </span> */}
           </div>
         </div>
 

@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 // import { grid } from './assets/export'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Project from './Components/Project/Project'
+import ComingSoon from './Components/ComingSoon/comingSoon'
 
 import { Route, Routes } from 'react-router-dom'
 
@@ -24,7 +25,10 @@ function App() {
         <Route path = '/' element={<Me/>}/>
         <Route path = '/AboutMe' element={<AboutMe/>}/>
         <Route path = '/project' element={<Project/>}/>
+        <Route path = '/comingSoon' element = {<ComingSoon/>}/>
       </Routes>
+
+      
 
     </div>
   )

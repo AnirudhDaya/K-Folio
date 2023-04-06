@@ -1,12 +1,13 @@
 import React from "react";
 import "./AboutMe.css";
 import { photo, darkSocials, tech } from "../../assets/export";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
     <div className="AboutMEContainer">
       <div className="commonMainLogo">
-        <a href="https://linktr.ee/anizbn">
+        <a href="https://linktr.ee/anirudhdayanand">
           <div className="LogoHover2">
             <h1 className="subLogo mainLogo ">Anirudh Dayanandan</h1>
           </div>
@@ -97,16 +98,18 @@ function AboutMe() {
       </div>
 
       <div className="lineConnect"></div>
-      <h3 className="connect">my Workspace</h3>
+      <h3 className="connect">My Workspace</h3>
       <div className="socialLogo">
         <div className="socialLogo-track">
           <a href="">
             {tech.map((take, index) => (
+              <Link to = "/ComingSoon">
               <img
                 src={take.src}
                 alt="socials"
                 className={`socials ${index}`}
-              />
+              /> 
+              </Link>
             ))}
           </a>
         </div>
