@@ -1,0 +1,8 @@
+.comingSoonPara{
+    color: var(--off-white-50);
+}
+.comingSoonContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
