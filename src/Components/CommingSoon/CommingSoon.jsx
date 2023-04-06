@@ -1,17 +1,16 @@
 import React from "react";
-import "./ComingSoon.css";
-import { Link } from "react-router-dom";
+import './CommingSoon.css'
 
-function ComingSoon() {
+function CommingSoon() {
   return (
-    <div className="comingSoonContainer">
+    <div className="commingSoonContainer">
       <div className="BigLogo mainLogo">Coming Soon</div>
 
-      <p className="comingSoonPara">
+      <p className="commingSoonPara">
         This page shows all the projects related to that particular stack
       </p>
     </div>
   );
 }
 
-export default ComingSoon;
+export default CommingSoon;

@@ -1,7 +1,7 @@
-.comingSoonPara{
+.commingSoonPara{
     color: var(--off-white-50);
 }
-.comingSoonContainer{
+.commingSoonContainer{
     display: flex;
     flex-direction: column;
     text-align: center;

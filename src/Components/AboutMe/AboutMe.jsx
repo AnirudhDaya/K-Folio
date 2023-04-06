@@ -103,7 +103,7 @@ function AboutMe() {
         <div className="socialLogo-track">
           <a href="">
             {tech.map((take, index) => (
-              <Link to = "/ComingSoon">
+              <Link to = "/CommingSoon">
               <img
                 src={take.src}
                 alt="socials"
