@@ -9,7 +9,6 @@ import { Route, Routes } from 'react-router-dom'
 import CommingSoon from './Components/CommingSoon/CommingSoon'
 
 
-
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -25,7 +24,7 @@ function App() {
         <Route path = '/' element={<Me/>}/>
         <Route path = '/AboutMe' element={<AboutMe/>}/>
         <Route path = '/project' element={<Project/>}/>
-        <Route path='commingSoon' element={<CommingSoon/>}/>
+        <Route path='/commingSoon' element={<CommingSoon/>}/>
       </Routes>
       
 

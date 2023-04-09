@@ -99,6 +99,7 @@ function AboutMe() {
 
       <div className="lineConnect"></div>
       <h3 className="connect">My Workspace</h3>
+      
       <div className="socialLogo">
         <div className="socialLogo-track">
           <a href="">
