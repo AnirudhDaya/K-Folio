@@ -56,6 +56,7 @@
 }
 
 .projMainTitle{
+    padding-bottom: 1em;
     color: var(--other-pink);
 }
 .projectContainer{

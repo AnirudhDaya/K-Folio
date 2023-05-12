@@ -41,7 +41,7 @@ import flutter from './TechStack/flutter.svg'
 import project1 from './Projects/01.png'
 import project2 from './Projects/02.png'
 
-
+import cloud from './Projects/cloud.svg'
 import grid from './Grid.png'
 
 
@@ -181,7 +181,9 @@ export  {
 
     photo,
     grid,
+    
     project1,
     project2,
+    cloud,
 }
 
