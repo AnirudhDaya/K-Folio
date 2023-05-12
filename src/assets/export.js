@@ -38,6 +38,8 @@ import ubuntu from './TechStack/ubuntu.svg'
 import vs_code from './TechStack/vs_code.svg'
 import flutter from './TechStack/flutter.svg'
 
+import project1 from './Projects/01.png'
+
 
 import grid from './Grid.png'
 
@@ -178,5 +180,6 @@ export  {
 
     photo,
     grid,
+    project1,
 }
 

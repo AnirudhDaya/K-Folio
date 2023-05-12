@@ -1,18 +1,16 @@
 import React from "react";
 import "./Project.css";
+import { project1 } from "../../assets/export";
 
 function Project() {
   return (
     <div className="projectContainer">
-
-      <div className="commonMainLogo" >
-      <a href="https://linktr.ee/anirudhdayanand">
-        <div className="LogoHover3">
-          <h1 className="subLogo mainLogo">
-            Anirudh Dayanandan
-          </h1>
-        </div>
-      </a>
+      <div className="commonMainLogo">
+        <a href="https://linktr.ee/anirudhdayanand">
+          <div className="LogoHover3">
+            <h1 className="subLogo mainLogo">Anirudh Dayanandan</h1>
+          </div>
+        </a>
       </div>
 
       <h1 className="expMainTitle">Experience</h1>
@@ -71,48 +69,67 @@ function Project() {
       <div className="projContainer">
         <div className="projectFrame">
           <div className="projectBlackBox">
-            <h3 className="projectTitle">Sylabus Condensor</h3>
-            <p className="projdescription">
-              Bachelor of Science in Digital Media Design is a highly
-              interdisciplinary degree that prepares students to work in the
-              ever-growing field of digital media. Students who pursue this
-              degree will gain a deep understanding of the principles of design,{" "}
-            </p>
+            <img src={project1} alt="" className="projectImage" />
+            <div className="projectContent">
+              <h3 className="projectTitle">Sylabus Condensor</h3>
+              <p className="projdescription">
+                Bachelor of Science in Digital Media Design is a highly
+                interdisciplinary degree that prepares students to work in the
+                ever-growing field of digital media. Students who pursue this
+                degree will gain a deep understanding of the principles of
+                design,{" "}
+              </p>
+            </div>
           </div>
         </div>
         <div className="projectFrame">
           <div className="projectBlackBox">
-            <h3 className="projectTitle">Sylabus Condensor</h3>
-            <p className="projdescription">
-              Bachelor of Science in Digital Media Design is a highly
-              interdisciplinary degree that prepares students to work in the
-              ever-growing field of digital media. Students who pursue this
-              degree will gain a deep understanding of the principles of design,{" "}
-            </p>
+            <img src={project1} alt="" className="projectImage" />
+            <div className="projectContent">
+              <h3 className="projectTitle">Sylabus Condensor</h3>
+              <p className="projdescription">
+                Bachelor of Science in Digital Media Design is a highly
+                interdisciplinary degree that prepares students to work in the
+                ever-growing field of digital media. Students who pursue this
+                degree will gain a deep understanding of the principles of
+                design,{" "}
+              </p>
+            </div>
           </div>
         </div>
         <div className="projectFrame">
           <div className="projectBlackBox">
-            <h3 className="projectTitle">Sylabus Condensor</h3>
-            <p className="projdescription">
-              Bachelor of Science in Digital Media Design is a highly
-              interdisciplinary degree that prepares students to work in the
-              ever-growing field of digital media. Students who pursue this
-              degree will gain a deep understanding of the principles of design,{" "}
-            </p>
+            <img src={project1} alt="" className="projectImage" />
+            <div className="projectContent">
+              <h3 className="projectTitle">Sylabus Condensor</h3>
+              <p className="projdescription">
+                Bachelor of Science in Digital Media Design is a highly
+                interdisciplinary degree that prepares students to work in the
+                ever-growing field of digital media. Students who pursue this
+                degree will gain a deep understanding of the principles of
+                design,{" "}
+              </p>
+            </div>
           </div>
         </div>
         <div className="projectFrame">
           <div className="projectBlackBox">
-            <h3 className="projectTitle">Sylabus Condensor</h3>
-            <p className="projdescription">
-              Bachelor of Science in Digital Media Design is a highly
-              interdisciplinary degree that prepares students to work in the
-              ever-growing field of digital media. Students who pursue this
-              degree will gain a deep understanding of the principles of design,{" "}
-            </p>
+            <img src={project1} alt="" className="projectImage" />
+            <div className="projectContent">
+              <h3 className="projectTitle">Sylabus Condensor</h3>
+              <p className="projdescription">
+                Bachelor of Science in Digital Media Design is a highly
+                interdisciplinary degree that prepares students to work in the
+                ever-growing field of digital media. Students who pursue this
+                degree will gain a deep understanding of the principles of
+                design,{" "}
+              </p>
+            </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
   );
