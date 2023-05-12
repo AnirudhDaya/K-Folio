@@ -40,7 +40,7 @@ function AboutMe() {
                 more.
               </p>
             </div>
-            <div className="detail aboutme">
+            {/* <div className="detail aboutme">
               <h3 className="aboutmeTitle aboutTitle">About Me</h3>
               <p className="aboutmePara aboutPara">
                 I'm a tech enthusiast and problem solver with a passion for
@@ -51,7 +51,7 @@ function AboutMe() {
                 businesses. Take a look at my projects and get in touch to learn
                 more.
               </p>
-            </div>
+            </div> */}
             <div className="detail education">
               <h3 className="aboutmeTitle educationTitle">Education</h3>
               <div className="educationFrame">

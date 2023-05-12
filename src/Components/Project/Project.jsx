@@ -12,8 +12,10 @@ function Project() {
           </div>
         </a>
       </div>
+
       <div className="projectsNexperience">
         <h1 className="expMainTitle">Experience</h1>
+        
         <div className="experienceContainer">
           {experience.map((item) => {
             return (
@@ -26,6 +28,7 @@ function Project() {
               </div>
             );
           })}
+
         </div>
 
         <h1 className="projMainTitle">Project</h1>
