@@ -15,7 +15,7 @@
 .experienceContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* padding: 2em; */
+    padding-block: 2em 6em;
     
 }
 .LogoHover3{
@@ -60,25 +60,20 @@
 }
 .projectContainer{
 
-    display: grid;
+    /* display: grid; */
     /* grid-template-rows: ; */
 
 
 }
 .experinceFrame{
-    padding:1em 4em 1em 4em;
-
+    padding:1em 3em 1em 3em;
 }
+
 .projectFrame{
-    /* padding: 1em 2em 1em 2em; */
     box-sizing: border-box;
     padding-inline: 2em;
 }
 
-.expHeading, .projectTitle{
-    /* padding-bottom: 0.5em; */
- 
-}
 
 .expTitle,.projectTitle{
 
@@ -87,19 +82,22 @@
     color: var(--off-white-90);
 
 }
+
 .projectTitle{
     padding-bottom: 1.75em;
 }
 
 .expYear{
-    color: var(--off-white-60);
+    font-size: var(--text--xs);
+    color: var(--off-white-80);
 }
 
-.expDesc, .projdescription{
+.expDesc{
     font-size: var(--txt--s);
     color: var(--off-white-60);
     font-weight: 300;
     transition: 0.4s;
+    padding-top:10px ;
 }
 .expDesc:hover{
     color: var(--off-white-80);
@@ -147,6 +145,23 @@
         padding: 0;
 
     }
+
+    
+}
+
+
+@media screen and (max-width:420px) {
+
+    .experinceFrame{
+        padding:0.5em;
+        padding-block: 1em;
+    
+    }
+    .expMainTitle, .projMainTitle{
+        font-size: var(--txt-ml);
+        padding: 0em;
+    }
+
 
     
 }
@@ -223,11 +238,13 @@ body.light {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 240px);
-    grid-gap: 4em;
+    grid-gap: 2em;
     position: relative;
     justify-content: center;
     z-index: 1;
+    padding-top: 2em;
 }
+
 .card {
     background-color: var(--background-color);
     box-shadow: 0px var(--card-box-shadow-1-y) var(--card-box-shadow-1-blur) var(--card-box-shadow-1), 0px var(--card-box-shadow-2-y) var(--card-box-shadow-2-blur) var(--card-box-shadow-2), 0 0 0 1px var(--card-border-color);
@@ -498,3 +515,52 @@ body.light {
     transition-delay: 0.3s;
 }
 
+@media screen and (max-width:1080px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 240px);
+        grid-gap: 2em;
+        position: relative;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .projectsNexperience{
+        margin-inline: 4em;
+    }
+    
+    
+}
+@media screen and (max-width:890px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 240px);
+        grid-gap: 2em;
+        position: relative;
+        justify-content: center;
+        z-index: 1;
+    }
+    .projectsNexperience{
+        margin-inline: 2em;
+    }
+    
+    
+}
+@media screen and (max-width:580px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 240px);
+        grid-gap: 2em;
+        position: relative;
+        justify-content: center;
+        z-index: 1;
+    }
+    .projectsNexperience{
+        margin-inline: 2em;
+    }
+    .expMainTitle{
+        padding-left: 0.3em;
+    }
+    
+    
+}
