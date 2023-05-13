@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <div className="AboutMEContainer">
       <div className="commonMainLogo">
-        <a href="https://linktr.ee/anirudhdayanand">
+        <a href="https://bento.me/anirudhdayanand"  target="_blank" rel="noopener noreferrer">
           <div className="LogoHover2">
             <h1 className="subLogo mainLogo ">Anirudh Dayanandan</h1>
           </div>
@@ -19,7 +19,7 @@ function AboutMe() {
           <img src={photo} alt="" className="photo" />
           <div className="darkLogoFrame">
             {darkSocials.map((take) => (
-              <a href="">
+              <a href={take.altLink}  target="_blank" rel="noopener noreferrer">
                 <img src={take.src} alt="" className="darkSocialLogo" />
               </a>
             ))}
@@ -30,28 +30,17 @@ function AboutMe() {
           <div className="detailsScroll-track">
             <div className="detail whoAmI">
               <h3 className="aboutmeTitle  whoTitle">Who Am I ?</h3>
-              <p className="aboutmePara whoPara">
-                I'm a tech enthusiast and problem solver with a passion for
-                DevOps and scripting. With expertise in Python and C++, I
-                specialize in creating efficient and scalable solutions for
-                complex problems. From automating deployments to optimizing
-                workflows, I'm dedicated to streamlining processes for
-                businesses. Take a look at my projects and get in touch to learn
-                more.
+              <p className="aboutmePara whoPara"> 
+                I'm an automation enthusiast who loves building projects and sharing
+                my experiences through part-time blogging. With a passion for DevOps 
+                and open-source tech, I'm always seeking new ways to contribute to the 
+                community. I'm also a machine learning enthusiast who enjoys expanding 
+                my knowledge in the field. Ispecialize in creating efficient and scalable 
+                solutions for complex problems.Above all, I believe in learning in public 
+                and creating an environment that encourages growth and development. Take a look 
+                at my projects and get in touch to learn more.
               </p>
             </div>
-            {/* <div className="detail aboutme">
-              <h3 className="aboutmeTitle aboutTitle">About Me</h3>
-              <p className="aboutmePara aboutPara">
-                I'm a tech enthusiast and problem solver with a passion for
-                DevOps and scripting. With expertise in Python and C++, I
-                specialize in creating efficient and scalable solutions for
-                complex problems. From automating deployments to optimizing
-                workflows, I'm dedicated to streamlining processes for
-                businesses. Take a look at my projects and get in touch to learn
-                more.
-              </p>
-            </div> */}
             <div className="detail education">
               <h3 className="aboutmeTitle educationTitle">Education</h3>
               <div className="educationFrame">
@@ -66,30 +55,18 @@ function AboutMe() {
                   <h3 className="textdesc detailDesc2">
                     Sree Chithra Thirunal College Of Engineering
                   </h3>
-                </div>
-                <div className="educationDetails edu-2">
+                  <div className="educationDetails edu-1">
                   <div className="subDesc">
                     <h3 className="textdesc detailDesc1">
                       {" "}
-                      Computer Science Engineering (AI/ML)
+                      School
                     </h3>
-                    <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
+                    <h4 className="textdesc detailDesc1.1">2007 - 2020</h4>
                   </div>
                   <h3 className="textdesc detailDesc2">
-                    Sree Chithra Thirunal College Of Engineering
+                    The Indian School, Bahrain
                   </h3>
                 </div>
-                <div className="educationDetails edu-3">
-                  <div className="subDesc">
-                    <h3 className="textdesc detailDesc1">
-                      {" "}
-                      Computer Science Engineering (AI/ML)
-                    </h3>
-                    <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
-                  </div>
-                  <h3 className="textdesc detailDesc2">
-                    Sree Chithra Thirunal College Of Engineering
-                  </h3>
                 </div>
               </div>
             </div>
@@ -102,7 +79,7 @@ function AboutMe() {
       
       <div className="socialLogo">
         <div className="socialLogo-track">
-          <a href="">
+          <a href=""  target="_blank" rel="noopener noreferrer">
             {tech.map((take, index) => (
               <Link to = "/CommingSoon">
               <img

@@ -96,19 +96,20 @@ const socials = [
 
 const darkSocials = [
     {
-        src : darkGithub
+        src : darkGithub,
+        altLink: "https://github.com/AnirudhDaya",
     },
     {
-        src : darkInstagram
+        src : darkLinkedin,
+        altLink: "https://www.linkedin.com/in/anirudhdayanand/",
     },
     {
-        src : darkLinkedin
+        src : darkTwitter,
+        altLink: "https://twitter.com/anirudhdayanand",
     },
     {
-        src : darkTwitter
-    },
-    {
-        src : darkHashode
+        src : darkHashode,
+        altLink: "https://anirudhdaya.hashnode.dev/",
     },
 
 ]

@@ -6,7 +6,7 @@ function Project() {
   return (
     <div className="projectContainer">
       <div className="commonMainLogo">
-        <a href="https://linktr.ee/anirudhdayanand">
+        <a href="https://bento.me/anirudhdayanand"  target="_blank" rel="noopener noreferrer">
           <div className="LogoHover3">
             <h1 className="subLogo mainLogo">Anirudh Dayanandan</h1>
           </div>
@@ -14,22 +14,7 @@ function Project() {
       </div>
 
       <div className="projectsNexperience">
-        <h1 className="expMainTitle">Experience</h1>
         
-        <div className="experienceContainer">
-          {experience.map((item) => {
-            return (
-              <div className={`experinceFrame exp${item.id}`}>
-                <div className="expHeading">
-                  <h3 className="expTitle">{item.expTitle}</h3>
-                  <h3 className="expTitle expYear">{item.year}</h3>
-                </div>
-                <p className="expDesc">{item.desc}</p>
-              </div>
-            );
-          })}
-
-        </div>
 
         <h1 className="projMainTitle">Project</h1>
 
@@ -37,6 +22,7 @@ function Project() {
           {forProjects.map((item) => {
             return (
               <div className="card">
+                <a href={item.altLink}  target="_blank" rel="noopener noreferrer">
                 <span className="icon">
                   <div
                     key={item.logo}
@@ -66,9 +52,26 @@ function Project() {
                   <div className="line line-2"></div>
                   <div className="line line-3"></div>
                 </div>
+                </a>
               </div>
             );
           })}
+        </div>
+        <h1 className="expMainTitle">Experience</h1>
+        
+        <div className="experienceContainer">
+          {experience.map((item) => {
+            return (
+              <div className={`experinceFrame exp${item.id}`}>
+                <div className="expHeading">
+                  <h3 className="expTitle">{item.expTitle}</h3>
+                  <h3 className="expTitle expYear">{item.year}</h3>
+                </div>
+                <p className="expDesc">{item.desc}</p>
+              </div>
+            );
+          })}
+
         </div>
       </div>
     </div>
