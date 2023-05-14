@@ -55,15 +55,18 @@
     text-transform: lowercase;
 }
 
+.expMainTitle{
+    padding-top: 1em;
+}
+
 .projMainTitle{
-    padding-bottom: 1em;
     color: var(--other-pink);
 }
 .projectContainer{
 
-    /* display: grid; */
-    /* grid-template-rows: ; */
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .experinceFrame{
@@ -164,7 +167,9 @@
         padding: 0em;
     }
 
-
+    .expMainTitle{
+        padding-top: 1em;
+    }
     
 }
 

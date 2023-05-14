@@ -6,7 +6,7 @@ function Me() {
   return (
     <div className="MeContainer">
       <div className="MeTop">
-        <a href="https://linktr.ee/">
+        <a href="https://bento.me/anirudhdayanand"  target="_blank" rel="noopener noreferrer">
           <div className="LogoHover">
             <h1 className="BigLogo mainLogo">Anirudh Dayanandan</h1>
           </div>
@@ -14,37 +14,17 @@ function Me() {
 
         <div className="skillContainer">
           <div className="skills skillSet_1">
-            <span className="skillPara skill_1">cloud engineer <span className="bulletPoints"> &bull; </span>{" "} </span>
-            <span className="skillPara skill_2">
-              problem solving aficianado <span className="bulletPoints"> &bull; </span>{" "}
-            </span>
-            <span className="skillPara skill_3">
-              react native developer <span className="bulletPoints"> &bull; </span>{" "}
-            </span>
+            <span className="skillPara skill_1">google cloud certified <span className="bulletPoints"> &bull; </span>{" "} </span>
+            <span className="skillPara skill_4">ai/ml engineer  <span className="bulletPoints">&bull;  </span></span>
           </div>
           <div className="skills skillSet_2">
-            <span className="skillPara skill_4">ai/ml engineer  <span className="bulletPoints">&bull;  </span></span>
-            <span className="skillPara skill_5">
-              data structure and oops  <span className="bulletPoints">&bull;</span> { " "}
+            <span className="skillPara skill_2">
+            devOPs <span className="bulletPoints"> &bull; </span>{" "}
             </span>
-            <span className="skillPara skill_6">python scripting  <span className="bulletPoints">&bull;  </span></span>
-            <span className="skillPara skill_7">java  <span className="bulletPoints">&bull;  </span></span>
-            <span className="skillPara skill_8">rust  <span className="bulletPoints">&bull;  </span></span>
-          </div>
-          <div className="skills skillSet_3">
-            <span className="skillPara skill_9">c++ eater  <span className="bulletPoints">&bull;  </span></span>
-            <span className="skillPara skill_10">devOPs <span className="bulletPoints">&bull;  </span></span>
-            <span className="skillPara skill_12">barca <span className="bulletPoints"> &bull; </span> </span>
-            {/* <span className="skillPara skill_13">made by ANIZ </span> */}
+            <span className="skillPara skill_6">automation <span className="bulletPoints">&bull;  </span></span>
+            <span className="skillPara skill_10">problem solving aficianado <span className="bulletPoints">&bull;  </span></span>
           </div>
         </div>
-
-        {/* <div className="skills skillSet_4">
-          <p className="meDetails">
-             As a tech enthusiast and problem solver, I'm constantly exploring new technologies and creating innovative solutions. With expertise in DevOps and scripting, I specialize in creating seamless and efficient applications that solve complex problems. Take a look at my projects to see how I can help your business succeed. Let's connect and explore new possibilities together!
-          </p>
-         
-        </div> */}
       </div>
 
       <div className="lineConnect"></div>
