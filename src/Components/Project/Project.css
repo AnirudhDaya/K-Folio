@@ -15,7 +15,7 @@
 .experienceContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-block: 2em 6em;
+    padding-block: 0.5em 4em;
     
 }
 .LogoHover3{
@@ -56,7 +56,7 @@
 }
 
 .expMainTitle{
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .projMainTitle{
@@ -70,13 +70,13 @@
 
 }
 .experinceFrame{
-    padding:1em 3em 2em 3em;
+    padding:1em 3em 1em 3em;
     border-radius: 6px;
 }
 
 .projectFrame{
     box-sizing: border-box;
-    padding-inline: 2em;
+    /* padding-inline: 2em; */
 }
 
 
