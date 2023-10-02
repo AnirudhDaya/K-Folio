@@ -46,52 +46,60 @@ import grid from './Grid.png'
 
 
 const socials = [
+    {
+        src:linkedin,
+        altLink: "https://www.linkedin.com/in/anirudhdayanand/",
+    },
+    {
+        src:github,
+        altLink: "https://github.com/AnirudhDaya"
+    },
+ 
+    {
+        src:twitter,
+        altLink: "https://twitter.com/anirudhdayanand",
+    },
+    {
+        src:linkedin,
+        altLink: "https://www.linkedin.com/in/anirudhdayanand/",
+    },
+    {
+        src:discord,
+        altLink: "https://anirudhdaya.hashnode.dev/",
+    },
+    {
+        src:hashnodeColor,
+        altLink: "https://anirudhdaya.hashnode.dev/",
+    },
 
     {
-        src:instagram
+        src:github,
+        altLink: "https://github.com/AnirudhDaya"
     },
     {
-        src:github
+        src:twitter,
+        altLink: "https://twitter.com/anirudhdayanand",
+    },
+
+    {
+        src:discord,
+        altLink: "https://discord.com/users/485125783145283598",
     },
     {
-        src:linkedin
+        src:github,
+        altLink: "https://github.com/AnirudhDaya"
     },
     {
-        src:twitter
+        src:twitter,
+        altLink: "https://twitter.com/anirudhdayanand",
     },
+
     {
-        src:youtube
+        src:discord,
+        altLink: "https://discord.com/users/485125783145283598",
     },
-    {
-        src:discord
-    },
-    {
-        src:medium
-    },
-    {
-        src:instagram
-    },
-    {
-        src:github
-    },
-    {
-        src:linkedin
-    },
-    {
-        src:twitter
-    },
-    {
-        src:youtube
-    },
-    {
-        src:discord
-    },
-    {
-        src:medium
-    },
-    {
-        src:instagram
-    },
+
+
 ]
 
 const darkSocials = [

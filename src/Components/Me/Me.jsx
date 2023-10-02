@@ -31,11 +31,11 @@ function Me() {
       <h3 className="connect">Connect with me </h3>
       <div className="socialLogo">
         <div className="socialLogo-track">
-          <a href="">
-            {socials.map((src, index) => (
-              <img src={src.src} alt="socials" className={`socials ${index}`} />
-            ))}
-          </a>
+          {socials.map((src, index) => (
+            <a href = {src.altLink}>
+                <img src={src.src} alt="socials" className={`socials ${index}`} />
+            </a>
+          ))}
         </div>
       </div>
     </div>

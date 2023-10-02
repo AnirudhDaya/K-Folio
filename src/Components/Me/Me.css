@@ -28,9 +28,17 @@
 } */
 .mainLogo {
 
+    /* font-family: 'BLACK gifliten'; */
     font-family: 'BLACK gifliten';
+    /* font-family: 'Glitten-Regular'; */
+    /* font-family: 'GLITTEN ALL CAPS'; */
     text-transform: uppercase;
     font-weight: 400;
+    /* letter-spacing: -0.16044rem; */
+
+    /* font-style: normal; */
+
+    /* letter-spacing: -5px; */
     font-size: 5.375rem;
     color: var(--other-yellow);
     
@@ -89,8 +97,6 @@
     display: flex;
     justify-content: center;
     /* flex-direction: row; */
-
-
     /* padding-top: 1.45em; */
     text-align: center;
     content: " ";
@@ -102,7 +108,6 @@
     text-transform: lowercase;
     color: var(--off-white-80);
     cursor: no-drop;
-
 }
 
 .skillPara {
@@ -110,7 +115,6 @@
 }
 
 .skillPara:hover {
-
     color: var(--other-purple);
     transition: 0.5s;
 }
@@ -210,9 +214,9 @@ img:hover {
 }
 
 .socialLogo-track {
-    width: calc(50vw * 7);
+    width: calc(50vw *2.25);
     display: flex;
-    animation: scroll 40s linear infinite;
+    animation: scroll 30s linear infinite;
     justify-content: space-between;
 }
 

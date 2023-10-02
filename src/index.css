@@ -40,9 +40,18 @@
 
 @font-face {
   font-family: 'BLACK gifliten';
-  src: url(./assets/Fonts/Black\ Gifliten.otf) format('opentype');
+  src: url(./assets/Fonts/Black\Gifliten.otf);
   /* font-weight: normal;
   font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Glitten-Regular';
+  src: url(./assets/Fonts/Glitten-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'GLITTEN\ ALL\ CAPS';
+  src: url(./assets/Fonts/GLITTEN\ ALL\ CAPS.otf);
 }
 
 html {
