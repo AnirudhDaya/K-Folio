@@ -27,9 +27,6 @@ function App() {
         <Route path='/commingSoon' element={<CommingSoon/>}/>
       </Routes>
       
-
-      
-
     </div>
   )
 }

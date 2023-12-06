@@ -41,15 +41,18 @@
 }
 
 .gradient {
+    background-color: aqua;
     --size: 350px;
     --speed: 50s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
-    width: var(--size);
+    /* width: var(--size); */
+    width: calc(var(--size));
     height: var(--size);
     filter: blur(calc(var(--size) / 5));
     background-image: linear-gradient(#3F59E9, #5F2A81, #CF2E8D);
     animation: rotate var(--speed) var(--easing) alternate infinite;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border-radius: 30% 30% 70% 30% / 30% 90% 70% 70%;
+    /* overflow: hidden; */
 }
 
 @keyframes rotate {
@@ -70,6 +73,7 @@
 
 .gradient {
     /* background-color: #222; */
+
     position: absolute;
     inset: 0;
     z-index: -10;
@@ -77,8 +81,8 @@
     place-content: center;
     align-items: center;
     overflow: hidden;
-    top: -20%;
-    left: 0%;
+    top: -60%;
+    left: 3%;
     /* bottom: 50%; */
 }
 
