@@ -33,7 +33,7 @@ jobs:
 
       - name: Deploy to server
         run: |
-          sshpass -p ${{ secrets.SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.DROPLET_IP }} << EOF
+          sshpass -p  ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.DROPLET_IP }} << EOF
             cd /var/www/anirudhdayanand.live/K-Folio
             git pull origin main
 
