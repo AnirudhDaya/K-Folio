@@ -35,7 +35,7 @@ function AboutMe() {
                 my experiences through part-time blogging. With a passion for DevOps 
                 and open-source tech, I'm always seeking new ways to contribute to the 
                 community. I'm also a machine learning enthusiast who enjoys expanding 
-                my knowledge in the field. Ispecialize in creating efficient and scalable 
+                my knowledge in the field. I specialize in creating efficient and scalable 
                 solutions for complex problems.Above all, I believe in learning in public 
                 and creating an environment that encourages growth and development. Take a look 
                 at my projects and get in touch to learn more.
