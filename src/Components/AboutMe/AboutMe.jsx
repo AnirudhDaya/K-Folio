@@ -53,7 +53,7 @@ function AboutMe() {
                     <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
                   </div>
                   <h3 className="textdesc detailDesc2">
-                    Sree Chithra Thirunal College Of Engineering
+                    Sree Chitra Thirunal College Of Engineering
                   </h3>
                   <div className="educationDetails edu-1">
                   <div className="subDesc">
