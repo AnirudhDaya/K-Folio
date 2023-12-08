@@ -13,18 +13,38 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ hashFiles('package.json') }}
+
       - name: Install dependencies
         run: npm install
 
       - name: Build
         run: npm run build
 
-      - name: Deploy
-        run: |
-          sshpass -p ${{ secrets.SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.DROPLET_IP }} << EOF
-          cd /var/www/anirudhdayanand.live/K-Folio
-          git pull origin main
-          npm install
-          npm run build
-          systemctl restart nginx
-          EOF
+      - name: Create deployment archive
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: build
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.DROPLET_IP }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /var/www/anirudhdayanand.live/K-Folio
+            git pull origin main
+
+            # Unpack build artifacts
+            tar -xzvf build-artifacts.tar.gz
+
+            npm install
+            npm run build
+
+            systemctl restart nginx
