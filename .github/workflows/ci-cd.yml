@@ -1,4 +1,4 @@
-name: executing remote ssh commands using ssh key
+name: CI/CD
 
 on:
   push:
@@ -6,18 +6,28 @@ on:
       - main
 
 jobs:
-  ssh:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Execute SSH command
-      uses: appleboy/ssh-action@v1.0.0
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
-        script: whoami
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /var/www/anirudhdayanand.live/portfolio/K-Folio
+            git pull origin main
+            npm install
+            npm run build
+            systemctl restart nginx
