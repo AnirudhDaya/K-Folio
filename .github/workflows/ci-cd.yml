@@ -24,7 +24,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.KEY }}
           script: |
             cd /var/www/anirudhdayanand.live/portfolio/K-Folio
             git pull origin main
