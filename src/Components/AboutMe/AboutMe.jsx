@@ -48,7 +48,7 @@ function AboutMe() {
                   <div className="subDesc">
                     <h3 className="textdesc detailDesc1">
                       {" "}
-                      Computer Science Engineering (AI/ML)
+                      Computer Science Engineering (AI - ML)
                     </h3>
                     <h4 className="textdesc detailDesc1.1">2020 - 2024</h4>
                   </div>
